@@ -5,5 +5,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :todolists
-  has_many :todoitems
+  has_many :todoitems, through: :todolists
 end

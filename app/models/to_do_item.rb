@@ -1,3 +1,3 @@
 class ToDoItem < ActiveRecord::Base
-  belongs_to :todoitem
+  belongs_to :todolist
 end
